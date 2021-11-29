@@ -1,6 +1,6 @@
-package com.douglas.os.config;
+package com.douglas.reflectit.config;
 
-import com.douglas.os.service.DbService;
+import com.douglas.reflectit.service.DbService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

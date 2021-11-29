@@ -1,13 +1,13 @@
-package com.douglas.os;
+package com.douglas.reflectit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OsApplication {
+public class ReflectItApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OsApplication.class, args);
+		SpringApplication.run(ReflectItApplication.class, args);
 	}
 
 

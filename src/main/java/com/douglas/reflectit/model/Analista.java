@@ -1,4 +1,4 @@
-package com.douglas.os.model;
+package com.douglas.reflectit.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,7 +12,7 @@ import lombok.Data;
 @Entity
 @Data
 @AllArgsConstructor
-public class Tecnico {
+public class Analista {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,16 +23,21 @@ public class Tecnico {
     private String cpf;
     @Column(name = "TELEFONE")
     private String telefone;
+    @Column(name = "SALARIO")
+    private double salario;
 
-    public Tecnico(){
+
+    public Analista(){
         super();
     }
 
-    public Tecnico(String nome, String cpf, String telefone) {
+    public Analista(String nome, String cpf, String telefone, double salario) {
         super();
         this.nome = nome;
         this.cpf = cpf;
         this.telefone = telefone;
+        this.salario = salario;
+
     }
     
 }

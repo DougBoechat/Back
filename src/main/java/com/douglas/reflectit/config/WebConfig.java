@@ -1,4 +1,4 @@
-package com.douglas.os.config;
+package com.douglas.reflectit.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -1,0 +1,15 @@
+spring:
+  profiles: default
+  datasource: 
+    username: u274220911_uuG3k
+    password: Teste@123
+    url: jdbc:mysql://92.249.44.207:3306/u274220911_8cIXl?enabledTLSProtocols=TLSv1.2
+    driver:
+      class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: false
+    properties: 
+      hibernate: 
+        format_sql: false
+        dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+      ddl-auto: none
