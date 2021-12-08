@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface AnalistaRepository extends JpaRepository <Analista, Integer> {
+public interface AnalistaRepository extends JpaRepository<Analista, Integer> {
 
     @Query("SELECT to FROM Analista to")
     List<Analista> findAll();
